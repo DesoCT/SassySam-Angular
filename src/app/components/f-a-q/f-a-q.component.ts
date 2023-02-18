@@ -8,13 +8,13 @@ import { Component, Input } from '@angular/core'
 export class FAQ {
   @Input()
   rootClassName: string = ''
-  raw4wa9: string = ' '
-  raw9k4i: string = ' '
-  raw58s3: string = ' '
-  rawzy8z: string = ' '
-  rawzqvc: string = ' '
-  raww0ct: string = ' '
-  rawryo8: string = ' '
-  raw8zv1: string = ' '
+  rawvyzx: string = ' '
+  raww9ql: string = ' '
+  rawddvg: string = ' '
+  rawslbf: string = ' '
+  rawi2bu: string = ' '
+  raw9v0b: string = ' '
+  rawvnlv: string = ' '
+  rawb3k5: string = ' '
   constructor() {}
 }

@@ -17,6 +17,5 @@ export class Card {
   IconAlt: string = 'image'
   @Input()
   Header: string = 'Sima Mosbacher'
-  Name: string = 'Name'
   constructor() {}
 }
