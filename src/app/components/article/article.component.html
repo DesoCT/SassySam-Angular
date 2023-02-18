@@ -1,0 +1,18 @@
+<section class="article-card" [ngClass]="rootClassName">
+  <main class="article-content">
+    <header class="article-header">
+      <h1 class="article-header1">{{ Header }}</h1>
+    </header>
+    <p class="article-description">{{ Description }}</p>
+    <div class="article-button">
+      <a
+        [attr.href]="ButtonLink"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="article-link"
+      >
+        <p class="article-text">{{ Button }}</p>
+      </a>
+    </div>
+  </main>
+</section>
