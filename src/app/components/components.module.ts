@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common'
 
 import { Mark } from './mark/mark.component'
 import { Review } from './review/review.component'
-import { FAQ } from './f-a-q/f-a-q.component'
+import { FAQ } from './faq/faq.component'
 import { Navbar } from './navbar/navbar.component'
 import { Excludes } from './excludes/excludes.component'
 import { Article } from './article/article.component'
