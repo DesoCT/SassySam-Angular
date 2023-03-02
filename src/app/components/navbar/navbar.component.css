@@ -16,11 +16,12 @@
   padding-bottom: 0px;
 }
 .navbar-branding-logo {
-  width: 497px;
+  width: 400px;
   height: auto;
   align-self: center;
   box-sizing: content-box;
-  margin-left: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .navbar-nav-content {
   gap: var(--dl-space-space-threeunits);
@@ -39,8 +40,16 @@
 .navbar-link {
   text-decoration: none;
 }
+.navbar-get-started {
+  transition: 0.3s;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #8F5E25 0%, #FBF4A1 50%, #8F5E25 100%);
+}
+.navbar-get-started:hover {
+  background-image: linear-gradient(to right, #8F5E25, #8F5E25),linear-gradient(to right, #8F5E25 0%, #FBF4A1 50%, #8F5E25 100%);
+}
 .navbar-text {
-  color: rgba(255, 255, 255, 1);
+  color: var(--dl-color-gray-black);
   align-self: auto;
   font-style: Medium;
   text-align: left;
