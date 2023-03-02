@@ -10,6 +10,7 @@ import { Article } from './article/article.component'
 import { Card } from './card/card.component'
 import { Includes } from './includes/includes.component'
 import { Accordion } from './accordion/accordion.component'
+import { FAQ } from './faq/faq.component'
 
 @NgModule({
   declarations: [
@@ -21,9 +22,20 @@ import { Accordion } from './accordion/accordion.component'
     Card,
     Includes,
     Accordion,
+    FAQ,
   ],
   imports: [CommonModule, RouterModule],
-  exports: [Mark, Review, Navbar, Excludes, Article, Card, Includes, Accordion],
+  exports: [
+    Mark,
+    Review,
+    Navbar,
+    Excludes,
+    Article,
+    Card,
+    Includes,
+    Accordion,
+    FAQ,
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ComponentsModule {}
