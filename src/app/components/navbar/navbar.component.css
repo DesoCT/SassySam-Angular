@@ -132,6 +132,9 @@
     padding-right: 0px;
     padding-bottom: 0px;
   }
+  .navbar-link {
+    text-decoration: none;
+  }
 }
 @media(max-width: 1200px) {
   .navbar-navbar {
@@ -141,12 +144,17 @@
     padding-bottom: 0px;
   }
 }
+@media(max-width: 991px) {
+  .navbar-branding-logo {
+    width: 250px;
+  }
+}
 @media(max-width: 767px) {
   .navbar-navbar {
     padding-bottom: var(--dl-space-space-fourunits);
   }
   .navbar-branding-logo {
-    width: 80px;
+    width: 300px;
   }
   .navbar-nav-links {
     display: none;

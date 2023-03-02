@@ -7,9 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['home.component.css'],
 })
 export class Home {
-  rawo302: string = ' '
-  raws84w: string = ' '
-  rawlg5u: string = ' '
+  rawwu81: string = ' '
+  rawacy5: string = ' '
+  rawlvvr: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('sassysam')
     this.meta.addTags([
