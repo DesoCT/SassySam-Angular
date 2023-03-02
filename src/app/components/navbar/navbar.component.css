@@ -46,7 +46,8 @@
   background-image: linear-gradient(to right, #8F5E25 0%, #FBF4A1 50%, #8F5E25 100%);
 }
 .navbar-get-started:hover {
-  background-image: linear-gradient(to right, #8F5E25, #8F5E25),linear-gradient(to right, #8F5E25 0%, #FBF4A1 50%, #8F5E25 100%);
+  opacity: 1;
+  background-image: linear-gradient(to right, #FBF4A1 0%, #8F5E25 50%, #FBF4A1 100%),linear-gradient(to right, #8F5E25 0%, #FBF4A1 50%, #8F5E25 100%);
 }
 .navbar-text {
   color: var(--dl-color-gray-black);

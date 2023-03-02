@@ -8,13 +8,13 @@ import { Component, Input } from '@angular/core'
 export class FUQ {
   @Input()
   rootClassName: string = ''
-  rawuipr: string = ' '
-  rawekol: string = ' '
-  rawuwp6: string = ' '
-  rawlpov: string = ' '
-  rawh4nh: string = ' '
-  raw3x4j: string = ' '
-  rawetq6: string = ' '
-  rawpf45: string = ' '
+  raw3o2y: string = ' '
+  rawecv2: string = ' '
+  raw8tgo: string = ' '
+  raw3uzo: string = ' '
+  rawiuf6: string = ' '
+  rawdc3b: string = ' '
+  rawhxxn: string = ' '
+  rawgmsh: string = ' '
   constructor() {}
 }
